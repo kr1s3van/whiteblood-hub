@@ -97,17 +97,18 @@ body {
 
 /* --- BOUTONS --- */
 .pixel-btn {
-  border: var(--pixel-border);
-  background-color: var(--arcade-gold);
-  box-shadow: 4px 4px 0px 0px #2d1e17;
-  font-family: 'VT323', monospace;
-  font-size: 1.6rem;
-  color: #2d1e17;
+  border: var(--pixel-border) !important;
+  background-color: var(--arcade-gold) !important; 
+  box-shadow: 4px 4px 0px 0px #2d1e17 !important;
+  font-family: 'VT323', monospace !important;
+  font-size: 1.6rem !important;
+  color: #2d1e17 !important;
+  transition: 0.1s;
 }
 
 .pixel-btn:hover {
-  background-color: var(--arcade-pink);
-  color: white;
+  background-color: var(--arcade-pink) !important; 
+  color: white !important;
   transform: translate(-1px, -1px);
 }
 
