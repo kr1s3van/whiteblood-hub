@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Gamepad2, CheckCircle2, Swords, Trophy, Star, MapPin, Phone, Mail } from 'lucide-react';
+import { Swords, Trophy, Star } from 'lucide-react';
 import './App.css';
 
 const App = () => {
