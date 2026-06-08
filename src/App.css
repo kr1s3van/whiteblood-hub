@@ -29,10 +29,10 @@ body {
 }
 
 /* --- BOITES STYLE RPG --- */
-.rpg-box {
-  background: white;
-  border: var(--pixel-border);
-  box-shadow: 8px 8px 0px 0px rgba(45, 30, 23, 0.15);
+.card.rpg-box {
+  border: var(--pixel-border) !important;
+  background-color: white !important;
+  box-shadow: 8px 8px 0px 0px rgba(92, 64, 51, 0.1) !important;
 }
 
 /* --- LA FRAME KIRBY --- */
